@@ -31,11 +31,68 @@ a {
 	text-decoration: none;
 	color: #111172
 }
- .school {
-
-
-}
+ 
 
 h3, address{
 	border-bottom: 2px #111172;
+}
+
+
+
+div .contact-form{
+	border-radius: 25px;
+	border-color: #111172;
+    border: 2px solid;
+    padding: 20px; 
+    
+}
+
+input[type=text] {
+	width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #111172;
+    border: 2px #111172;
+    border-radius: 4px;
+}
+
+input[type=email] {
+	width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px #111172;
+    border-radius: 4px;
+}
+
+input.message-size{
+	width: 80%;
+	height:150px;
+	padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 4px;
+    resize: none;
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+}
+
+input[type=email]:focus {
+	background-color: lightblue;
+}
+
+.button{
+	background-color: #111172;
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
